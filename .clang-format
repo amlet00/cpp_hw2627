@@ -2,4 +2,3 @@ BasedOnStyle: google
 DerivePointerAlignment: false
 PointerAlignment: Left
 AlignOperands: Align
-AllowShortFunctionsOnASingleLine: None
