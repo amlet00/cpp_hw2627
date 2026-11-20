@@ -23,7 +23,8 @@ g++ main.cpp Inventory.cpp ServiceCenter.cpp Things.cpp Transport.cpp -o main.ou
 ./main.out
 ```
 # Схема наследования
-![[Схема.png]]
+![](Схема.png)
+
 InventoryItem, EnergyConsumer, Transport, Thing - абстрактные классы
 Transport и Thing наследуются от InventoryItem
 Scooter и Ebike наследуются от Transport и EnergyConsumer
